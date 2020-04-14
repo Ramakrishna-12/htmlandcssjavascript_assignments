@@ -1,0 +1,111 @@
+#header-nav {
+  background-color: gray;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+h1
+{
+	float: left;
+	text-align: left;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+
+}
+
+
+
+p {
+	text-align: left;
+	position: relative;
+	top: 20%;
+	margin: 3%;
+}
+
+#name {
+	text-align: center;
+	padding-bottom: 30px;
+	margin-top: 40px;
+	font-size: 175%;
+}
+
+.column {
+  position: relative;
+  float: left;
+  width: 31.2%;
+  height: 250px;
+  border: 1px solid black;
+  margin: 1%;
+  background-color: #F5F5F5;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  border-color: black;
+  border: 1px;
+}
+
+.category {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 0px;
+  display: block;
+  width: 40%;
+  height: 40px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 0.5%;
+  font-size: 175%;
+} 
+
+#Chicken {
+	background-color: gray;
+}
+
+#Beef {
+	background-color: gray;
+		
+}
+
+#Sushi {
+   background-color: gray;
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  .column {
+    width: 48%;
+  }
+
+  #Paragraph3 {
+  	width: 98%;
+  }
+}
+
+/* Small devices */
+@media screen and (max-width: 767px) {
+  .column {
+    width: 98%;
+  }
+}
+a
+{
+	align-items: center;
+}
